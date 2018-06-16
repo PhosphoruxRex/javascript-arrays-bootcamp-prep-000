@@ -37,5 +37,3 @@ function removeElementFromEndOfArray(arr) {
 }
 
 // or maybe it really is iceCreams.length - 1
-
-
