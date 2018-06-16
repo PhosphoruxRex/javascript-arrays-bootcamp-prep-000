@@ -25,5 +25,17 @@ function destructivelyRemoveElementFromBeginningOfArray(arr) {
 }
 
 function removeElementFromBeginningOfArray(arr) {
-  return arr.slice(0)
+  return arr.slice(1)
 }
+
+function destructivelyRemoveElementFromEndOfArray(arr) {
+  return arr.pop()
+}
+
+function removeElementFromEndOfArray(arr) {
+  return arr.slice(0, -1)
+}
+
+// or maybe it really is iceCreams.length - 1
+
+
